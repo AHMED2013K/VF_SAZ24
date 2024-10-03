@@ -39,6 +39,18 @@ html{
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
+<header>
+    <div class="logo">
+        <img src="contact-img.svg" alt="Logo" />
+    </div>
+</header>
+
+.logo img {
+    max-width: 100px; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+}
+
+
 header{
     position: fixed;
     top:0;left:0;
