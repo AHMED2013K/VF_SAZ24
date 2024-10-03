@@ -39,11 +39,17 @@ html{
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
-<header>
-    <div class="logo">
-        <img src="contact-img.svg" alt="Logo" />
-    </div>
-</header>
+
+.logo-container {
+    position: absolute; /* ou relative selon votre mise en page */
+    top: 10px; /* ajustez selon vos besoins */
+    left: 10px; /* ajustez selon vos besoins */
+}
+
+.logo {
+    width: 50px; /* ou une taille de votre choix */
+    height: auto; /* maintient le ratio */
+}
 
 
 header{
