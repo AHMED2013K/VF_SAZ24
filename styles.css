@@ -45,11 +45,6 @@ html{
     </div>
 </header>
 
-.logo img {
-    max-width: 100px; /* Ajustez la largeur selon vos besoins */
-    height: auto;
-}
-
 
 header{
     position: fixed;
